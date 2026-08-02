@@ -1,0 +1,8 @@
+{
+  "name": "Bada Jyotisha and Karamkand",
+  "description": "Authentic Vedic pujas, yagnas, anusthans, and astrology consultation services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
