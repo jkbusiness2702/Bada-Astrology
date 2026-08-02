@@ -69,7 +69,7 @@ export const Footer = () => {
         <div className="flex flex-col items-center gap-10">
           <div className="w-full max-w-[70px] pt-8 pb-16">
             <img 
-              src="nlogo.png" 
+              src="/LOGO.png" 
               alt="SKB's" 
               className="w-full h-auto drop-shadow-xl"
             />
