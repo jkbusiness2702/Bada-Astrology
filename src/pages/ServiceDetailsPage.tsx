@@ -211,7 +211,7 @@ Sankalpa / Intention: ${formData.message || "Not specified"}`;
                 alt={activeTitle}
                 className="w-full h-[450px] object-cover"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "/ganapatiyagna.jpg";
+                  (e.target as HTMLImageElement).src = "/owner11.png";
                 }}
               />
               <div className="absolute bottom-4 left-4 right-4 py-3 px-4 text-center bg-[#F7F0E2]/95 border border-[#DDD0B0]">
