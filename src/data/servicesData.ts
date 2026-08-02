@@ -28,8 +28,8 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "A SACRED VEDIC RITUAL",
     sanskritSloka: "या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥",
     subtitle: "Nine days of sacred fire, ancient mantras & divine grace of Goddess Chandi",
-    heroImage: "/n1.jpeg",
-    aboutImage: "/nr1.png",
+    heroImage: "/navchandi.jpeg",
+    aboutImage: "/n1.jpeg",
     stats: [
       { num: "9", label: "Sacred Days" },
       { num: "700", label: "Vedic Verses" },
@@ -88,8 +88,8 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "SUPREME MAHA YAGNA",
     sanskritSloka: "सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके । शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते ॥",
     subtitle: "Recitation of Durga Saptashati 100 times with 10,000 sacred fire offerings for ultimate victory and planetary peace",
-    heroImage: "/navchandi.jpeg",
-    aboutImage: "/satya.jpeg",
+    heroImage: "/satchadii.jpeg",
+    aboutImage: "/mataji.png",
     stats: [
       { num: "100", label: "Saptashati Paath" },
       { num: "10K", label: "Sacred Ahutis" },
@@ -142,8 +142,8 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "DIVINE SHIVA RITUAL",
     sanskritSloka: "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्यॉर्मुक्षीय माऽमृतात् ॥",
     subtitle: "Sacred liquid abhishekam of Shiva Lingam & 125,000 Mahamrityunjaya japa for health, longevity, and liberation",
-    heroImage: "/Vastusanti.jpeg",
-    aboutImage: "/satyanarayan.jpg",
+    heroImage: "/s3.jpeg",
+    aboutImage: "/s33.jpeg",
     stats: [
       { num: "1.25L", label: "Mantra Japa" },
       { num: "11", label: "Sacred Liquid Offerings" },
@@ -197,8 +197,8 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "RITUAL FOR HEALTH & LONGEVITY",
     sanskritSloka: "ॐ हौं जूं सः ॐ भूर्भुवः स्वः ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् ॥",
     subtitle: "Conquer severe illness, accident threats, and mental distress through Mahamrityunjaya Lord Shiva Jaap & Fire Havan",
-    heroImage: "/satyanarayan.jpg",
-    aboutImage: "/Vastusanti.jpeg",
+    heroImage: "/s33.jpeg",
+    aboutImage: "/s3.jpeg",
     stats: [
       { num: "125K", label: "Mantra Chants" },
       { num: "108", label: "Fire Ahutis" },
@@ -237,7 +237,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "ॐ श्रीं ह्रीं क्लीं श्रीं सिद्ध लक्ष्म्यै नमः ॥ ॐ यक्षाय कुबेराय वैश्रवणाय धनधान्याधिपतये नमः ॥",
     subtitle: "Unlock financial growth, business success, and perpetual wealth with Goddess Mahalakshmi & Lord Kuber",
     heroImage: "/lak.jpg",
-    aboutImage: "/satyanarayan.jpg",
+    aboutImage: "/s2.jpeg",
     stats: [
       { num: "108", label: "Lotus Offerings" },
       { num: "16", label: "Shree Suktam Verses" },
@@ -287,7 +287,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ । निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
     subtitle: "Invoke Lord Ganesha's supreme wisdom, remove all hurdles from career, business, and new ventures",
     heroImage: "/ganapatiyagna.jpg",
-    aboutImage: "/nr1.png",
+    aboutImage: "/ganapati.jpg",
     stats: [
       { num: "1008", label: "Durva Grass Ahutis" },
       { num: "21", label: "Modak Offerings" },
@@ -326,7 +326,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "वास्तोष्पते प्रति जानीह्यस्मान् स्वावेशो अमीवो भवा नः ॥",
     subtitle: "Purify architectural directional flaws (Vastu Doshas), bring peace, health, and prosperity to home or office",
     heroImage: "/Vastusanti.jpeg",
-    aboutImage: "/n1.jpeg",
+    aboutImage: "/vastu.jpeg",
     stats: [
       { num: "10", label: "Directional Deities" },
       { num: "1", label: "Vastu Purusha Sthapana" },
@@ -365,7 +365,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "शं नो भवन्तु वाजिनो हवेषु देवासो अप्सु श्रिया संमिश्रः ॥",
     subtitle: "Auspicious housewarming ritual invoking Goddess Lakshmi, Lord Ganesha, and Vastu Deva for joy in your new home",
     heroImage: "/Ghruvastu.jpeg",
-    aboutImage: "/nr1.png",
+    aboutImage: "/vastu.jpeg",
     stats: [
       { num: "1", label: "Kalash Sthapana" },
       { num: "5", label: "Vedic Elements Blessed" },
@@ -404,7 +404,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "गृह्णामि ते सौभगत्वाय हस्तं मया पत्या जरदष्टिः यथासः ॥",
     subtitle: "Unite two souls under the eternal blessing of Agni Deva, Goddess Parvati, and Lord Shiva",
     heroImage: "/sk.jpeg",
-    aboutImage: "/satyanarayan.jpg",
+    aboutImage: "/s4.jpeg",
     stats: [
       { num: "7", label: "Saptapadi Steps" },
       { num: "3", label: "Vows to Agni" },
@@ -443,7 +443,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "सत्यव्रतं सत्यपरं त्रिसत्यं सत्यस्य योनिं निहितं च सत्ये ॥",
     subtitle: "Fulfill desires, express gratitude, and bring family togetherness with Lord Satyanarayan's 5-chapter divine narrative and fire offering",
     heroImage: "/satyanarayan.jpg",
-    aboutImage: "/n1.jpeg",
+    aboutImage: "/satya.jpeg",
     stats: [
       { num: "5", label: "Sacred Chapters" },
       { num: "1", label: "Panchamrit Offering" },
@@ -482,7 +482,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "ओम् पितृभ्यो नमः । ओम् तर्पणं समर्पयामि ॥",
     subtitle: "Appease departed ancestors, remove generation-long lineage blockages, and restore peace and prosperity",
     heroImage: "/s5.jpeg",
-    aboutImage: "/satyanarayan.jpg",
+    aboutImage: "/s55.jpeg",
     stats: [
       { num: "3", label: "Generations Blessed" },
       { num: "100%", label: "Lineage Cleansing" },
@@ -521,7 +521,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "ब्रह्मा मुरारिस्त्रिपुरान्तकारी भानुः शशी भूमिसुतो बुधश्च । गुरुश्च शुक्रः शनिराहुकेतवः कुर्वन्तु सर्वे मम सुप्रभातम् ॥",
     subtitle: "Balance all nine planetary energies in your horoscope to turn obstacles into favorable cosmic alignment",
     heroImage: "/Navgrah.jpg",
-    aboutImage: "/n1.jpeg",
+    aboutImage: "/s22.jpeg",
     stats: [
       { num: "9", label: "Planets Pacified" },
       { num: "9", label: "Grains & Wood Offered" },
@@ -572,7 +572,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "देवकीसुत गोविन्द वासुदेव जगत्पते । देहि मे तनयं कृष्ण त्वामहं शरणं गतः ॥",
     subtitle: "Invoke Lord Santan Gopal & Bal Krishna to bestow healthy progeny, overcome conception hurdles, and protect unborn child",
     heroImage: "/s1.jpeg",
-    aboutImage: "/nr1.png",
+    aboutImage: "/s11.jpeg",
     stats: [
       { num: "100%", label: "Vedic Blessing" },
       { num: "108", label: "Santan Gopal Japa" },
@@ -611,7 +611,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "ओम् श्रीं ह्रीं क्लीं वित्तेश्वराय नमः ॥",
     subtitle: "Multiply commercial growth, eliminate business stagnation, attract wealthy clients, and secure investments",
     heroImage: "/lak.jpg",
-    aboutImage: "/satyanarayan.jpg",
+    aboutImage: "/s2.jpeg",
     stats: [
       { num: "10X", label: "Business Energy" },
       { num: "1", label: "Vyapar Vriddhi Yantra" },
@@ -649,8 +649,8 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "UNIVERSAL OBSTACLE ERADICATION",
     sanskritSloka: "सर्वाबाधाप्रशमनं त्रैलोक्यस्याखिलेश्वरि । एवमेव त्वया कार्यमस्मद्वैरिविनाशनम् ॥",
     subtitle: "Dissolve complex, unknown, and multi-layered life obstacles preventing health, marriage, wealth, and legal victory",
-    heroImage: "/navchandi.jpeg",
-    aboutImage: "/satya.jpeg",
+    heroImage: "/s44.jpeg",
+    aboutImage: "/mataji.png",
     stats: [
       { num: "100%", label: "Obstacle Eradication" },
       { num: "3", label: "Supreme Energies Invoked" },
@@ -689,7 +689,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "ओम् क्रां क्रीं क्रौं सः भौमाय नमः ॥",
     subtitle: "Neutralize Mars (Mangal) affliction in chart, prevent delays in marriage, and establish deep understanding between couples",
     heroImage: "/sk.jpeg",
-    aboutImage: "/nr1.png",
+    aboutImage: "/s4.jpeg",
     stats: [
       { num: "100%", label: "Manglik Dosh Pacification" },
       { num: "1", label: "Mangal Yantra Sthapana" },
@@ -728,7 +728,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     sanskritSloka: "ज्योतिषं नेत्रमुच्यते — Astrology is the divine eye of Vedas",
     subtitle: "In-depth birth chart examination by expert astrologers for career, marriage, health, wealth, and effective Vedic remedies",
     heroImage: "/kundali.png",
-    aboutImage: "/n1.jpeg",
+    aboutImage: "/kundalii.png",
     stats: [
       { num: "12", label: "Horoscope Houses" },
       { num: "9", label: "Planets Analyzed" },

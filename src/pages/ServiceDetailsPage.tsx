@@ -113,6 +113,9 @@ Sankalpa / Intention: ${formData.message || "Not specified"}`;
             src={service.heroImage}
             alt={service.titleEn}
             className="w-full h-full object-cover opacity-25"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = "/navchandi.jpeg";
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#F7F0E2]/40 via-[#F7F0E2]/85 to-[#F7F0E2]" />
         </div>
@@ -207,6 +210,9 @@ Sankalpa / Intention: ${formData.message || "Not specified"}`;
                 src={service.aboutImage}
                 alt={activeTitle}
                 className="w-full h-[450px] object-cover"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "/ganapatiyagna.jpg";
+                }}
               />
               <div className="absolute bottom-4 left-4 right-4 py-3 px-4 text-center bg-[#F7F0E2]/95 border border-[#DDD0B0]">
                 <p className="text-xs tracking-widest font-sans text-[#7A5C2E] uppercase">
