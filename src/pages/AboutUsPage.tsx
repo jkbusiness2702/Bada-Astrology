@@ -73,7 +73,7 @@ export const AboutUsPage = () => {
     <main id="MainContent" className="content-for-layout focus-none" role="main" tabIndex={-1}>
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://dadus.co.in/cdn/shop/files/image_42_d9d50462-9798-4fef-bf09-5c9310efd18b_1920x1080.webp?v=1755855468')" }}>
+        style={{ backgroundImage: "url('/navchnadi.jpeg')" }}>
         <div className="absolute inset-0 bg-black/40 z-1" />
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-[54px] leading-tight font-normal">
@@ -95,14 +95,17 @@ export const AboutUsPage = () => {
               <em className="italic">Guiding Spiritual Journey</em><br />Since 2000
             </h2>
             <div className="space-y-6 text-lg md:text-2xl opacity-90 leading-relaxed max-w-[500px] mx-auto md:mx-0">
-              <p>Through countless trials, Krunal Sukhadia crafted a motichoor so soft and rich, it redefined mithai.</p>
-              <p className="text-white">Three decades ago, SKB's was born inside a humble 800 sq. ft. room.<br /><br />
-                Today, it thrives across Gujarat, with a menu featuring over 200 plus items.</p>
+              <p>For centuries, the stars have guided humanity through life's greatest decisions.
+
+                We combine the ancient wisdom of Vedic astrology with thoughtful, personalized interpretations to help you understand your destiny, embrace opportunities, and overcome challenges.
+
+                From birth chart analysis to daily guidance and spiritual remedies, we are committed to helping you unlock the wisdom written in the stars. </p>
+              <p className="text-white">With every ceremony and ritual, we strive to bring protection, prosperity, and peace to our clients, upholding the values of integrity and service that have defined our practice.</p>
             </div>
           </div>
           <div className="flex-1 flex justify-center items-center">
             <img
-              src="/owner.png"
+              src="/Owner11.png"
               alt="Ritesh Pandya"
               className="max-w-full h-auto rounded-lg shadow-xl"
             />
@@ -112,13 +115,14 @@ export const AboutUsPage = () => {
 
       {/* Quotes Section */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://dadus.co.in/cdn/shop/files/image_45_be011ec8-9ba7-4fcd-9f79-28c06b8445f2_1920x1080.webp?v=1755855562')" }}>
+        style={{ backgroundImage: "url('/g1.jpg')" }}>
         <div className="absolute inset-0 bg-black/40 z-1" />
         <div className="relative z-10 text-center text-white px-4 max-w-[800px]">
           <div className="font-serif text-xl md:text-3xl lg:text-[50px] leading-tight font-normal">
             <p>Years have passed, </p>
-            <p>palates have evolved. </p>
-            <p>But <em className="italic">the joy of mithai kalakari</em> </p>
+            <p>. </p>
+            <p>But <em className="italic">the career results and success for our clients and their generations
+            </em> </p>
             <p>remains constant.</p>
           </div>
         </div>
@@ -243,8 +247,9 @@ export const AboutUsPage = () => {
               <em className="italic">The Legacy</em> Continues
             </h2>
             <div className="text-xl md:text-2xl lg:text-[1.7rem] leading-relaxed space-y-8 max-w-[600px] mx-auto md:mx-0 font-sans">
-              <p>Krunal Sukhadia transformed a personal fascination for mithai into a beloved legacy.</p>
-              <p>Now, the next generation leads with the same passion and purpose, while upholding trust, taste, and timeless celebration.</p>
+              <p>Ritesh Pandey transformed a lifelong passion for Vedic astrology into a trusted source of guidance and spiritual wisdom.
+
+                Today, that same dedication continues to inspire every consultation, combining ancient knowledge with modern insight to help individuals find clarity, purpose, and confidence on life's journey.</p>
             </div>
           </div>
           <div className="flex-1 flex justify-center">

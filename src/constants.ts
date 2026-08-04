@@ -79,20 +79,20 @@ export const BEST_SELLERS = [
 export const COLLECTIONS = [
   { title: "નવચંડી યજ્ઞ", image: "/navchnadi.jpeg", href: "/services/navchandi-yagna" },
   { title: "શતચંડી મહાયજ્ઞ", image: "/sat.jpeg", href: "/services/shatchandi-mahayagna" },
-  { title: "રુદ્રાભિષેક તથા મહામૃત્યુંજય યજ્ઞ", image: "/OIP (1).webp", href: "/services/rudrabhishek-mahamrityunjaya" },
-  { title: "મહામૃત્યુંજય યજ્ઞ", image: "/s3.jpeg", href: "/services/mahamrityunjaya-yagna" },
+  { title: "રુદ્રાભિષેક તથા મહામૃત્યુંજય યજ્ઞ", image: "/s3.jpeg", href: "/services/rudrabhishek-mahamrityunjaya" },
+  { title: "મહામૃત્યુંજય યજ્ઞ", image: "/s33.jpeg", href: "/services/mahamrityunjaya-yagna" },
   { title: "લક્ષ્મી કુબેર યજ્ઞ", image: "/lak.jpg", href: "/services/laxmi-kuber-yagna" },
-  { title: "ગણપતિ યજ્ઞ", image: "/ganapati.jpg", href: "/services/ganapati-yagna" },
-  { title: "વાસ્તુ શાંતિ યજ્ઞ", image: "/vastu.jpeg", href: "/services/vastu-shanti-yagna" },
-  { title: "ગૃહ પ્રવેશ હવન", image: "/ghruvastu.jpeg", href: "/services/gruh-pravesh-havan" },
-  { title: "વિવાહ યજ્ઞ", image: "/s4.jpeg", href: "/services/vivah-yagna" },
+  { title: "ગણપતિ યજ્ઞ", image: "/ganapatiyagna.jpg", href: "/services/ganapati-yagna" },
+  { title: "વાસ્તુ શાંતિ યજ્ઞ", image: "/Vastusanti.jpeg", href: "/services/vastu-shanti-yagna" },
+  { title: "ગૃહ પ્રવેશ હવન", image: "/Ghruvastu.jpeg", href: "/services/gruh-pravesh-havan" },
+  { title: "વિવાહ યજ્ઞ", image: "/sk.jpeg", href: "/services/vivah-yagna" },
   { title: "સત્યનારાયણ કથા તથા હવન", image: "/satyanarayan.jpeg", href: "/services/satyanarayan-katha" },
   { title: "પિતૃ દોષ નિવારણ યજ્ઞ", image: "/s5.jpeg", href: "/services/pitru-dosh-nivarana" },
   { title: "નવગ્રહ શાંતિ યજ્ઞ", image: "/Navgrah.jpg", href: "/services/navgrah-shanti-yagna" },
   { title: "સંતાન પ્રાપ્તિ યજ્ઞ", image: "/s1.jpeg", href: "/services/santan-prapti-yagna" },
   { title: "વ્યવસાય તથા ધન વૃદ્ધિ યજ્ઞ", image: "/lak.jpg", href: "/services/vyavasay-dhan-vriddhi" },
-  { title: "સર્વ બાધા નિવારણ યજ્ઞ", image: "/s2.jpeg", href: "/services/vyavasay-dhan-vriddhi" },
-  { title: "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ", image: "/s3.jpeg", href: "/services/gruh-shanti-manglik" }
+  { title: "સર્વ બાધા નિવારણ યજ્ઞ", image: "/s2.jpeg", href: "/services/sarva-badha-nivarana" },
+  { title: "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ", image: "/sk.jpeg", href: "/services/gruh-shanti-manglik" }
 ];
 
 export const BLOG_POSTS = [

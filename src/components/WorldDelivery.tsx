@@ -161,7 +161,7 @@ export const WorldDelivery = () => {
           {t("LOVE KNOWS NO BORDERS WITH BADA'S,", "જ્ઞાન અને પવિત્રતા સીમાઓથી પર છે,")}<br /> {t("NOW DELIVERING GUIDANCE WORLDWIDE.", "હવે વિશ્વભરમાં વૈદિક સેવાઓ ઉપલબ્ધ.")}
         </div>
         <Link 
-          to="/services/navchandi-yagna" 
+          to="/contact#say-hello" 
           className="world-delivery-button"
         >
           {t("BOOK APPOINTMENT", "એપોઇન્ટમેન્ટ બુક કરો")}

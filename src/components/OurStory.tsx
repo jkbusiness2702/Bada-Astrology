@@ -217,7 +217,7 @@ export const OurStory = () => {
           <div className="our-story-content">
             <div className="our-story-background-wrapper">
               <img
-                src="/owner11.png"
+                src="/Owner11.png"
                 alt="Our Story Background"
                 className="our-story-background-image"
                 loading="lazy"

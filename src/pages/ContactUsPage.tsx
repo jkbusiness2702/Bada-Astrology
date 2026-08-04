@@ -1,9 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Mail, Phone, MapPin, Clock, Instagram, CheckCircle, AlertCircle } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export const ContactUsPage = () => {
   const { t } = useLanguage();
+  const location = useLocation();
+
+  // Scroll to anchor section when navigating with a hash (e.g. /contact#say-hello)
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      }
+    }
+  }, [location]);
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -66,10 +81,10 @@ Message: ${formData.message || 'Not specified'}`;
   return (
     <div className="bg-[#f9f3e7] min-h-screen text-[#333333] font-sans">
       {/* 1. Hero Collection Banner */}
-      <div 
+      <div
         className="relative bg-cover bg-center py-24 md:py-32 text-white border-b-4 border-[#C8984E]"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/s3.jpeg')`
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/navchnadi.jpeg')`
         }}
       >
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-left">
@@ -83,7 +98,7 @@ Message: ${formData.message || 'Not specified'}`;
       </div>
 
       {/* 2. Contact Main Section ("Say Hello!") */}
-      <section className="py-12 md:py-20 px-6 max-w-7xl mx-auto">
+      <section id="say-hello" className="py-12 md:py-20 px-6 max-w-7xl mx-auto">
         {/* Centered Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <h2 className="font-serif text-3xl md:text-5xl text-[#8b1538] font-normal mb-4">
@@ -114,8 +129,8 @@ Message: ${formData.message || 'Not specified'}`;
                 Phone :
               </h3>
               <p>
-                <a 
-                  href="tel:+919687229518" 
+                <a
+                  href="tel:+919687229518"
                   className="text-gray-700 hover:text-[#8b2323] text-sm md:text-base font-medium transition-colors"
                 >
                   +91 9687229518
@@ -129,8 +144,8 @@ Message: ${formData.message || 'Not specified'}`;
                 Email :
               </h3>
               <p>
-                <a 
-                  href="mailto:pandya523@gmail.com" 
+                <a
+                  href="mailto:pandya523@gmail.com"
                   className="text-gray-700 hover:text-[#8b2323] text-sm md:text-base font-medium transition-colors"
                 >
                   pandya523@gmail.com
@@ -153,9 +168,9 @@ Message: ${formData.message || 'Not specified'}`;
                 Follow Us :
               </h3>
               <div className="flex gap-3">
-                <a 
-                  href="https://www.instagram.com" 
-                  target="_blank" 
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-[#8b1538] text-white flex items-center justify-center hover:bg-[#6b1028] transition-colors shadow-sm"
                   aria-label="Instagram"
@@ -403,7 +418,7 @@ Message: ${formData.message || 'Not specified'}`;
 
           {/* Map Frame */}
           <div className="lg:col-span-8 bg-white p-2 rounded-sm border-8 border-white shadow-md h-[400px]">
-            <iframe 
+            <iframe
               title="Khambhat Location Map"
               className="w-full h-full border-none"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.758465703571!2d72.62186587396226!3d22.324972679668814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f06ae7921bd1b%3A0x9d607a0ef008ec16!2sGreen%20Villa%20residancy!5e0!3m2!1sen!2sin!4v1785436545636!5m2!1sen!2sin"
