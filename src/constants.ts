@@ -70,7 +70,7 @@ export const BEST_SELLERS = [
   {
     id: "4",
     title: "Kundali Analysis",
-    image: "/kundali.png",
+    image: "/img/services/kundali-analysis.jpg",
     href: "/services/kundali-analysis"
   }
 ];
@@ -87,12 +87,12 @@ export const COLLECTIONS = [
   { title: "વિવાહ યજ્ઞ", image: "/img/services/vivah-yagna.jpg", href: "/services/vivah-yagna" },
   { title: "સત્યનારાયણ કથા તથા હવન", image: "/img/services/satyanarayan-katha.jpg", href: "/services/satyanarayan-katha" },
   { title: "પિતૃ દોષ નિવારણ યજ્ઞ", image: "/img/services/pitru-dosh-nivarana.jpg", href: "/services/pitru-dosh-nivarana" },
-  { title: "નવગ્રહ શાંતિ યજ્ઞ", image: "/Navgrah.jpg", href: "/services/navgrah-shanti-yagna" },
+  { title: "નવગ્રહ શાંતિ યજ્ઞ", image: "/img/services/navgrah-shanti-yagna.jpg", href: "/services/navgrah-shanti-yagna" },
   { title: "સંતાન પ્રાપ્તિ યજ્ઞ", image: "/img/services/santan-prapti-yagna.jpg", href: "/services/santan-prapti-yagna" },
-  { title: "વ્યવસાય તથા ધન વૃદ્ધિ યજ્ઞ", image: "/lak.jpg", href: "/services/vyavasay-dhan-vriddhi" },
+  { title: "વ્યવસાય તથા ધન વૃદ્ધિ યજ્ઞ", image: "/img/services/vyavasay-dhan-vriddhi.jpg", href: "/services/vyavasay-dhan-vriddhi" },
   { title: "સર્વ બાધા નિવારણ યજ્ઞ", image: "/img/services/sarva-badha-nivarana.jpg", href: "/services/sarva-badha-nivarana" },
   { title: "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ", image: "/img/services/gruh-shanti-manglik.jpg", href: "/services/gruh-shanti-manglik" },
-  { title: "કુંડળી વિશ્લેષણ", image: "/kundali.png", href: "/services/kundali-analysis" }
+  { title: "કુંડળી વિશ્લેષણ", image: "/img/services/kundali-analysis.jpg", href: "/services/kundali-analysis" }
 ];
 
 export const BLOG_POSTS = [
@@ -116,7 +116,7 @@ export const BLOG_POSTS = [
   },
   {
     title: "Your Kundali Is Your Cosmic Blueprint – Learn What It Reveals",
-    image: "/kundali.png",
+    image: "/img/services/kundali-analysis.jpg",
     date: "30 Jun, 2026",
     excerpt: "Career, marriage, health, wealth — the 12 houses and 9 planets of your birth chart hold the answers. Our Vedic astrologers decode your chart and prescribe precise remedies..."
   }

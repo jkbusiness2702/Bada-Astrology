@@ -520,7 +520,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "PLANETARY HARMONY RITUAL",
     sanskritSloka: "ब्रह्मा मुरारिस्त्रिपुरान्तकारी भानुः शशी भूमिसुतो बुधश्च । गुरुश्च शुक्रः शनिराहुकेतवः कुर्वन्तु सर्वे मम सुप्रभातम् ॥",
     subtitle: "Balance all nine planetary energies in your horoscope to turn obstacles into favorable cosmic alignment",
-    heroImage: "/Navgrah.jpg",
+    heroImage: "/img/services/navgrah-shanti-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "9", label: "Planets Pacified" },
@@ -610,7 +610,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "BUSINESS & FINANCIAL EXPANSION",
     sanskritSloka: "ओम् श्रीं ह्रीं क्लीं वित्तेश्वराय नमः ॥",
     subtitle: "Multiply commercial growth, eliminate business stagnation, attract wealthy clients, and secure investments",
-    heroImage: "/lak.jpg",
+    heroImage: "/img/services/vyavasay-dhan-vriddhi.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "10X", label: "Business Energy" },
@@ -727,7 +727,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "VEDIC ASTROLOGY CONSULTATION",
     sanskritSloka: "ज्योतिषं नेत्रमुच्यते — Astrology is the divine eye of Vedas",
     subtitle: "In-depth birth chart examination by expert astrologers for career, marriage, health, wealth, and effective Vedic remedies",
-    heroImage: "/kundali.png",
+    heroImage: "/img/services/kundali-analysis.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "12", label: "Horoscope Houses" },
