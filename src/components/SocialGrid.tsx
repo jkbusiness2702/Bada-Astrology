@@ -38,11 +38,12 @@ export const SocialGrid = () => {
             <h2 className="text-3xl md:text-4xl lg:text-[45px] font-serif leading-tight text-center md:text-left">
               Follow Us for<br className="hidden md:block" /> More Spiritual Wisdom
             </h2>
-            <img 
-              src="https://dadus.co.in/cdn/shop/files/mithai_stories.png?v=1746985612" 
-              alt="" 
-              className="absolute -right-20 -top-4 h-24 hidden lg:block opacity-80"
-            />
+            <span
+              aria-hidden="true"
+              className="absolute -right-20 -top-4 h-24 hidden lg:flex items-center justify-center text-[#C8922A] text-7xl leading-none opacity-80 select-none"
+            >
+              ॐ
+            </span>
           </div>
 
           <div className="flex gap-4 md:mr-[5%]">

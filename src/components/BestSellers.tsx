@@ -52,11 +52,11 @@ export const BestSellers = () => {
           </h2>
           
           {/* Stickers */}
-          <div className="absolute -top-10 -right-16 w-32 hidden md:block z-10">
-            <img src="https://dadus.co.in/cdn/shop/files/Group_745.png?v=1744122377" alt="Sticker" className="w-full h-auto" />
+          <div className="absolute -top-10 -right-16 w-32 hidden md:block z-10 text-6xl text-center select-none" aria-hidden="true">
+            🪔
           </div>
-          <div className="absolute -bottom-6 -right-14 w-10 z-10">
-            <img src="https://dadus.co.in/cdn/shop/files/laddoo.png?v=1747912592" alt="Sticker" className="w-full h-auto" />
+          <div className="absolute -bottom-6 -right-14 w-10 z-10 text-3xl text-center select-none" aria-hidden="true">
+            ✦
           </div>
         </div>
       </div>
@@ -99,9 +99,6 @@ export const BestSellers = () => {
               <h3 className="text-primary text-sm font-serif font-normal text-center mb-1 uppercase tracking-wide">
                 {t(product.title)}
               </h3>
-              <p className="text-gray-800 text-xs text-center font-normal">
-                {product.price}
-              </p>
             </div>
           ))}
         </div>

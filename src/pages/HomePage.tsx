@@ -64,13 +64,13 @@ export const HomePage = () => {
       <HeroSlider />
       <BestSellers />
       <CollectionsGrid />
-      <ParallaxSection image="/home2.jpg" />
+      <ParallaxSection image="/img/banners/parallax-temple.jpg" />
       <WorldDelivery />
       <OurStory />
       <SocialGrid />
       <VideoHero />
       <BlogSlider />
-      <ParallaxSection image="https://dadus.co.in/cdn/shop/files/IMG_1551_1.webp?v=1755948718" />
+      <ParallaxSection image="/img/banners/parallax-yagna.jpg" />
     </main>
   );
 };

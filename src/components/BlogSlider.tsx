@@ -34,19 +34,15 @@ export const BlogSlider = () => {
     <section className="bg-[#f9f3e7] py-16 px-6 overflow-hidden min-h-[80vh] flex flex-col justify-center select-none">
       {/* Spotlight Header */}
       <div className="flex justify-center items-center gap-5 mb-10">
-        <img 
-          src="https://dadus.co.in/cdn/shop/files/spotlightsticker.png?v=1744396463" 
-          alt="Left sticker" 
-          className="w-12 h-12 object-contain" 
-        />
+        <span aria-hidden="true" className="w-12 h-12 flex items-center justify-center text-[#C8922A] text-4xl leading-none select-none">
+          ✦
+        </span>
         <h2 className="text-[#8b2323] text-3xl md:text-5xl font-serif font-normal text-center leading-tight">
-          {t("Shree Bada Jyotish in the", "શ્રી બાળા જ્યોતિષ")} <em className="italic font-normal">{t("Spotlight", "વિશેષ જ્ઞાન")}</em>
+          {t("Shree Bada Jyotish in the", "શ્રી બડા જ્યોતિષ")} <em className="italic font-normal">{t("Spotlight", "વિશેષ જ્ઞાન")}</em>
         </h2>
-        <img 
-          src="https://dadus.co.in/cdn/shop/files/spotlightsticker.png?v=1744396463" 
-          alt="Right sticker" 
-          className="w-12 h-12 object-contain" 
-        />
+        <span aria-hidden="true" className="w-12 h-12 flex items-center justify-center text-[#C8922A] text-4xl leading-none select-none">
+          ✦
+        </span>
       </div>
 
       <div className="relative max-w-[1400px] mx-auto w-full group">

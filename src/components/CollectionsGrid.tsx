@@ -19,7 +19,8 @@ const GUJ_TO_ENG_COLLECTIONS: Record<string, string> = {
   "સંતાન પ્રાપ્તિ યજ્ઞ": "Santan Prapti Yagna",
   "વ્યવસાય તથા ધન વૃદ્ધિ યજ્ઞ": "Vyavasay & Dhan Vriddhi Yagna",
   "સર્વ બાધા નિવારણ યજ્ઞ": "Sarva Badha Nivarana Yagna",
-  "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ": "Gruh Shanti & Manglik Dosh Nivarana"
+  "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ": "Gruh Shanti & Manglik Dosh Nivarana",
+  "કુંડળી વિશ્લેષણ": "Kundali Analysis"
 };
 
 export const CollectionsGrid = () => {
@@ -32,11 +33,12 @@ export const CollectionsGrid = () => {
     >
       <div className="page-width w-full max-w-[140rem] mx-auto px-4 flex flex-col flex-1 max-h-full">
         <div className="collections-grid__header text-center mb-[30px] flex justify-center items-center gap-[10px] shrink-0">
-          <img 
-            src="//dadus.co.in/cdn/shop/files/Group_752_60x.png?v=1744123131" 
-            alt="" 
-            className="collections-grid__sticker w-[50px] h-[50px] md:w-[60px] md:h-[60px] object-contain" 
-          />
+          <span
+            aria-hidden="true"
+            className="collections-grid__sticker w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center text-[#8b2915] text-4xl md:text-5xl leading-none select-none"
+          >
+            ॐ
+          </span>
           <h1 className="collections-grid__title font-serif text-[#8b2915] text-[1.8rem] md:text-[3.5rem] leading-tight my-4 px-[10px]">
             <div className="collections-grid__title-content">
               {language === 'gu' ? (
@@ -46,11 +48,12 @@ export const CollectionsGrid = () => {
               )}
             </div>
           </h1>
-          <img 
-            src="//dadus.co.in/cdn/shop/files/Group_752_60x.png?v=1744123131" 
-            alt="" 
-            className="collections-grid__sticker w-[50px] h-[50px] md:w-[60px] md:h-[60px] object-contain" 
-          />
+          <span
+            aria-hidden="true"
+            className="collections-grid__sticker w-[50px] h-[50px] md:w-[60px] md:h-[60px] flex items-center justify-center text-[#8b2915] text-4xl md:text-5xl leading-none select-none"
+          >
+            ॐ
+          </span>
         </div>
 
         <div className="collections-grid__mobile-container overflow-x-auto md:overflow-visible scrollbar-hide flex-1">
