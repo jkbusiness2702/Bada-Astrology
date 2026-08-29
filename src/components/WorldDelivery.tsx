@@ -29,7 +29,7 @@ export const WorldDelivery = () => {
           background-position: center;
           background-repeat: no-repeat;
           z-index: 1;
-          background-image: url('//dadus.co.in/cdn/shop/files/world_2000x.png?v=1744171050');
+          background-image: radial-gradient(ellipse at 50% 42%, rgba(200, 146, 42, 0.20) 0%, rgba(200, 146, 42, 0) 58%), radial-gradient(ellipse at center, #711A16 0%, #571210 78%);
         }
         .world-delivery-overlay {
           position: absolute;
@@ -121,36 +121,36 @@ export const WorldDelivery = () => {
       <div className="world-delivery-background">&nbsp;</div>
       <div className="world-delivery-overlay">&nbsp;</div>
 
-      {/* Bird Sticker 1 - Desktop */}
+      {/* Floating Om Accent 1 - Desktop */}
       <div 
         className="sticker-element z-[5] md:block hidden animate-float"
         style={{ left: '0%', top: '53%', width: '440px', height: '440px', transform: 'rotate(0deg)' }}
       >
-        <img src="//dadus.co.in/cdn/shop/files/bird2.png?v=1744183120" alt="Decorative sticker" className="w-full h-full object-contain" />
+        <span aria-hidden="true" className="w-full h-full flex items-center justify-center text-[200px] leading-none text-[#C8922A]/35 select-none">ॐ</span>
       </div>
 
-      {/* Bird Sticker 1 - Mobile */}
+      {/* Floating Om Accent 1 - Mobile */}
       <div 
         className="sticker-element z-[5] md:hidden block animate-float"
         style={{ left: '0%', top: '68%', width: '200px', height: '200px', transform: 'rotate(-10deg)' }}
       >
-        <img src="//dadus.co.in/cdn/shop/files/bird2.png?v=1744183120" alt="Decorative sticker" className="w-full h-full object-contain" />
+        <span aria-hidden="true" className="w-full h-full flex items-center justify-center text-[90px] leading-none text-[#C8922A]/35 select-none">ॐ</span>
       </div>
 
-      {/* Bird Sticker 2 - Desktop */}
+      {/* Floating Om Accent 2 - Desktop */}
       <div 
         className="sticker-element z-[5] md:block hidden animate-float-delayed"
         style={{ left: '73%', top: '0%', width: '440px', height: '440px', transform: 'rotate(0deg)' }}
       >
-        <img src="//dadus.co.in/cdn/shop/files/bird1.png?v=1744171117" alt="Decorative sticker" className="w-full h-full object-contain" />
+        <span aria-hidden="true" className="w-full h-full flex items-center justify-center text-[200px] leading-none text-[#C8922A]/35 select-none">ॐ</span>
       </div>
 
-      {/* Bird Sticker 2 - Mobile */}
+      {/* Floating Om Accent 2 - Mobile */}
       <div 
         className="sticker-element z-[5] md:hidden block animate-float-delayed"
         style={{ left: '62%', top: '6%', width: '130px', height: '130px', transform: 'rotate(0deg)' }}
       >
-        <img src="//dadus.co.in/cdn/shop/files/bird1.png?v=1744171117" alt="Decorative sticker" className="w-full h-full object-contain" />
+        <span aria-hidden="true" className="w-full h-full flex items-center justify-center text-[60px] leading-none text-[#C8922A]/35 select-none">ॐ</span>
       </div>
 
       <div className="world-delivery-content">

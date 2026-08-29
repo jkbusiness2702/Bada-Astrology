@@ -228,11 +228,14 @@ export const OurStory = () => {
               className="our-story-frame-wrapper"
               style={{ transform: `scale(${scale})` }}
             >
-              <img
-                src="//dadus.co.in/cdn/shop/files/13_frame12.png?v=1747966988"
-                alt="Our Story Frame - Small Desktop"
+              <div
+                aria-hidden="true"
                 className="our-story-frame-image"
-                loading="lazy"
+                style={{
+                  border: '2px solid rgba(200, 146, 42, 0.65)',
+                  outline: '1px solid rgba(200, 146, 42, 0.30)',
+                  outlineOffset: '10px',
+                }}
               />
             </div>
 
