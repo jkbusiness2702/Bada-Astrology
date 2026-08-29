@@ -52,80 +52,80 @@ export const BEST_SELLERS = [
   {
     id: "1",
     title: "Navchandi Yagna",
-    image: "/navchnadi.jpeg",
+    image: "/img/services/navchandi-yagna.jpg",
     href: "/services/navchandi-yagna"
   },
   {
     id: "2",
     title: "Satyanarayan Katha",
-    price: "From ₹ 230",
-    image: "/satyanarayan.jpeg",
+    image: "/img/services/satyanarayan-katha.jpg",
     href: "/services/satyanarayan-katha"
   },
   {
     id: "3",
     title: "Ganapati Yagna",
-    image: "/ganapati.jpg",
+    image: "/img/services/ganapati-yagna.jpg",
     href: "/services/ganapati-yagna"
   },
   {
     id: "4",
     title: "Kundali Analysis",
-    image: "/kundalii.png",
+    image: "/kundali.png",
     href: "/services/kundali-analysis"
   }
 ];
 
 export const COLLECTIONS = [
-  { title: "નવચંડી યજ્ઞ", image: "/navchnadi.jpeg", href: "/services/navchandi-yagna" },
-  { title: "શતચંડી મહાયજ્ઞ", image: "/sat.jpeg", href: "/services/shatchandi-mahayagna" },
-  { title: "રુદ્રાભિષેક તથા મહામૃત્યુંજય યજ્ઞ", image: "/s3.jpeg", href: "/services/rudrabhishek-mahamrityunjaya" },
-  { title: "મહામૃત્યુંજય યજ્ઞ", image: "/s33.jpeg", href: "/services/mahamrityunjaya-yagna" },
-  { title: "લક્ષ્મી કુબેર યજ્ઞ", image: "/lak.jpg", href: "/services/laxmi-kuber-yagna" },
-  { title: "ગણપતિ યજ્ઞ", image: "/ganapatiyagna.jpg", href: "/services/ganapati-yagna" },
-  { title: "વાસ્તુ શાંતિ યજ્ઞ", image: "/Vastusanti.jpeg", href: "/services/vastu-shanti-yagna" },
-  { title: "ગૃહ પ્રવેશ હવન", image: "/Ghruvastu.jpeg", href: "/services/gruh-pravesh-havan" },
-  { title: "વિવાહ યજ્ઞ", image: "/sk.jpeg", href: "/services/vivah-yagna" },
-  { title: "સત્યનારાયણ કથા તથા હવન", image: "/satyanarayan.jpeg", href: "/services/satyanarayan-katha" },
-  { title: "પિતૃ દોષ નિવારણ યજ્ઞ", image: "/s5.jpeg", href: "/services/pitru-dosh-nivarana" },
+  { title: "નવચંડી યજ્ઞ", image: "/img/services/navchandi-yagna.jpg", href: "/services/navchandi-yagna" },
+  { title: "શતચંડી મહાયજ્ઞ", image: "/img/services/shatchandi-mahayagna.jpg", href: "/services/shatchandi-mahayagna" },
+  { title: "રુદ્રાભિષેક તથા મહામૃત્યુંજય યજ્ઞ", image: "/img/services/rudrabhishek-mahamrityunjaya.jpg", href: "/services/rudrabhishek-mahamrityunjaya" },
+  { title: "મહામૃત્યુંજય યજ્ઞ", image: "/img/services/mahamrityunjaya-yagna.jpg", href: "/services/mahamrityunjaya-yagna" },
+  { title: "લક્ષ્મી કુબેર યજ્ઞ", image: "/img/services/laxmi-kuber-yagna.jpg", href: "/services/laxmi-kuber-yagna" },
+  { title: "ગણપતિ યજ્ઞ", image: "/img/services/ganapati-yagna.jpg", href: "/services/ganapati-yagna" },
+  { title: "વાસ્તુ શાંતિ યજ્ઞ", image: "/img/services/vastu-shanti-yagna.jpg", href: "/services/vastu-shanti-yagna" },
+  { title: "ગૃહ પ્રવેશ હવન", image: "/img/services/gruh-pravesh-havan.jpg", href: "/services/gruh-pravesh-havan" },
+  { title: "વિવાહ યજ્ઞ", image: "/img/services/vivah-yagna.jpg", href: "/services/vivah-yagna" },
+  { title: "સત્યનારાયણ કથા તથા હવન", image: "/img/services/satyanarayan-katha.jpg", href: "/services/satyanarayan-katha" },
+  { title: "પિતૃ દોષ નિવારણ યજ્ઞ", image: "/img/services/pitru-dosh-nivarana.jpg", href: "/services/pitru-dosh-nivarana" },
   { title: "નવગ્રહ શાંતિ યજ્ઞ", image: "/Navgrah.jpg", href: "/services/navgrah-shanti-yagna" },
-  { title: "સંતાન પ્રાપ્તિ યજ્ઞ", image: "/s1.jpeg", href: "/services/santan-prapti-yagna" },
+  { title: "સંતાન પ્રાપ્તિ યજ્ઞ", image: "/img/services/santan-prapti-yagna.jpg", href: "/services/santan-prapti-yagna" },
   { title: "વ્યવસાય તથા ધન વૃદ્ધિ યજ્ઞ", image: "/lak.jpg", href: "/services/vyavasay-dhan-vriddhi" },
-  { title: "સર્વ બાધા નિવારણ યજ્ઞ", image: "/s2.jpeg", href: "/services/sarva-badha-nivarana" },
-  { title: "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ", image: "/sk.jpeg", href: "/services/gruh-shanti-manglik" }
+  { title: "સર્વ બાધા નિવારણ યજ્ઞ", image: "/img/services/sarva-badha-nivarana.jpg", href: "/services/sarva-badha-nivarana" },
+  { title: "ગૃહ શાંતિ તથા માંગલિક દોષ નિવારણ", image: "/img/services/gruh-shanti-manglik.jpg", href: "/services/gruh-shanti-manglik" },
+  { title: "કુંડળી વિશ્લેષણ", image: "/kundali.png", href: "/services/kundali-analysis" }
 ];
 
 export const BLOG_POSTS = [
   {
-    title: "SKB's Sutarfeni – A Sweet Whirlwind of Flavour and Tradition",
-    image: "/s1.jpeg",
-    date: "29 Jun, 2026",
-    excerpt: "Discover the magic of Sutarfeni, our finely shredded sweet classic. Handcrafted layers that melt away in pure golden sweetness..."
+    title: "Navchandi Yagna – The Divine Fire Ritual That Removes All Obstacles",
+    image: "/img/services/navchandi-yagna.jpg",
+    date: "21 Aug, 2026",
+    excerpt: "Discover the sacred power of Navchandi Yagna — nine days of holy fire, 700 verses of Durga Saptashati, and the divine grace of Maa Chandi that dissolves deep karmic obstacles..."
   },
   {
-    title: "SKB’s Halwasan – Born in Khambhat, Loved Worldwide",
-    image: "/s2.jpeg",
-    date: "22 May, 2026",
-    excerpt: "Halwasan is Khambhat’s pride. Made with nutritious sprouted wheat, rich milk solid caramelization, and pure ghee..."
+    title: "Rudrabhishek – Why Milk on the Shivling Grants Health & Longevity",
+    image: "/img/services/rudrabhishek-mahamrityunjaya.jpg",
+    date: "02 Aug, 2026",
+    excerpt: "The ancient scriptures describe Rudrabhishek as the supreme remedy for illness and fear. Eleven sacred dravyas, 1,25,000 Mahamrityunjaya chants, and the blessings of Har Har Mahadev..."
   },
   {
-    title: "SKB’s Kaju Katli – Pure Royal Taste in Every Bite",
-    image: "/s3.jpeg",
-    date: "20 Jun, 2024",
-    excerpt: "Elegant, diamond-shaped, silver-gilded perfection. Our Kaju Katli uses premium grade cashews with zero compromises..."
+    title: "Vastu Shanti – Restore Peace & Prosperity in Your Home",
+    image: "/img/services/vastu-shanti-yagna.jpg",
+    date: "18 Jul, 2026",
+    excerpt: "Unexplained arguments, leaking finances, or restless nights? Vastu doshas can be pacified with a single Vedic yagna — no demolition or structural change required..."
   },
   {
-    title: "SKB’s Rainbow Shrikhand – Where Colors Turn into Creamy Luxury",
-    image: "/s4.jpeg",
-    date: "17 Jun, 2024",
-    excerpt: "Creamy hung curd blended with natural fruit pulps and saffron. A colorful festive masterpiece to elevate your dessert table..."
+    title: "Your Kundali Is Your Cosmic Blueprint – Learn What It Reveals",
+    image: "/kundali.png",
+    date: "30 Jun, 2026",
+    excerpt: "Career, marriage, health, wealth — the 12 houses and 9 planets of your birth chart hold the answers. Our Vedic astrologers decode your chart and prescribe precise remedies..."
   }
 ];
 
 export const SOCIAL_IMAGES = [
-  "/s11.jpeg",
+  "/img/services/ganapati-yagna.jpg",
   "/owner2.png",
-  "/s33.jpeg",
+  "/img/services/rudrabhishek-mahamrityunjaya.jpg",
   "/mataji.png",
-  "/s55.jpeg"
+  "/img/services/vivah-yagna.jpg"
 ];

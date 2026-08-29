@@ -28,7 +28,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "A SACRED VEDIC RITUAL",
     sanskritSloka: "या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥",
     subtitle: "Nine days of sacred fire, ancient mantras & divine grace of Goddess Chandi",
-    heroImage: "/navchandi.jpeg",
+    heroImage: "/img/services/navchandi-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "9", label: "Sacred Days" },
@@ -88,7 +88,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "SUPREME MAHA YAGNA",
     sanskritSloka: "सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके । शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते ॥",
     subtitle: "Recitation of Durga Saptashati 100 times with 10,000 sacred fire offerings for ultimate victory and planetary peace",
-    heroImage: "/satchadii.jpeg",
+    heroImage: "/img/services/shatchandi-mahayagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "100", label: "Saptashati Paath" },
@@ -142,7 +142,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "DIVINE SHIVA RITUAL",
     sanskritSloka: "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्यॉर्मुक्षीय माऽमृतात् ॥",
     subtitle: "Sacred liquid abhishekam of Shiva Lingam & 125,000 Mahamrityunjaya japa for health, longevity, and liberation",
-    heroImage: "/s3.jpeg",
+    heroImage: "/img/services/rudrabhishek-mahamrityunjaya.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "1.25L", label: "Mantra Japa" },
@@ -197,7 +197,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "RITUAL FOR HEALTH & LONGEVITY",
     sanskritSloka: "ॐ हौं जूं सः ॐ भूर्भुवः स्वः ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् ॥",
     subtitle: "Conquer severe illness, accident threats, and mental distress through Mahamrityunjaya Lord Shiva Jaap & Fire Havan",
-    heroImage: "/s33.jpeg",
+    heroImage: "/img/services/mahamrityunjaya-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "125K", label: "Mantra Chants" },
@@ -236,7 +236,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "RITUAL FOR WEALTH & PROSPERITY",
     sanskritSloka: "ॐ श्रीं ह्रीं क्लीं श्रीं सिद्ध लक्ष्म्यै नमः ॥ ॐ यक्षाय कुबेराय वैश्रवणाय धनधान्याधिपतये नमः ॥",
     subtitle: "Unlock financial growth, business success, and perpetual wealth with Goddess Mahalakshmi & Lord Kuber",
-    heroImage: "/lak.jpg",
+    heroImage: "/img/services/laxmi-kuber-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "108", label: "Lotus Offerings" },
@@ -286,7 +286,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "OBSTACLE REMOVAL & NEW BEGINNINGS",
     sanskritSloka: "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ । निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
     subtitle: "Invoke Lord Ganesha's supreme wisdom, remove all hurdles from career, business, and new ventures",
-    heroImage: "/ganapatiyagna.jpg",
+    heroImage: "/img/services/ganapati-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "1008", label: "Durva Grass Ahutis" },
@@ -325,7 +325,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "HOME & PROPERTY HARMONY",
     sanskritSloka: "वास्तोष्पते प्रति जानीह्यस्मान् स्वावेशो अमीवो भवा नः ॥",
     subtitle: "Purify architectural directional flaws (Vastu Doshas), bring peace, health, and prosperity to home or office",
-    heroImage: "/Vastusanti.jpeg",
+    heroImage: "/img/services/vastu-shanti-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "10", label: "Directional Deities" },
@@ -364,7 +364,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "HOUSEWARMING VEDIC CEREMONY",
     sanskritSloka: "शं नो भवन्तु वाजिनो हवेषु देवासो अप्सु श्रिया संमिश्रः ॥",
     subtitle: "Auspicious housewarming ritual invoking Goddess Lakshmi, Lord Ganesha, and Vastu Deva for joy in your new home",
-    heroImage: "/Ghruvastu.jpeg",
+    heroImage: "/img/services/gruh-pravesh-havan.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "1", label: "Kalash Sthapana" },
@@ -403,7 +403,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "SACRED WEDDING RITUAL",
     sanskritSloka: "गृह्णामि ते सौभगत्वाय हस्तं मया पत्या जरदष्टिः यथासः ॥",
     subtitle: "Unite two souls under the eternal blessing of Agni Deva, Goddess Parvati, and Lord Shiva",
-    heroImage: "/sk.jpeg",
+    heroImage: "/img/services/vivah-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "7", label: "Saptapadi Steps" },
@@ -442,7 +442,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "LORD VISHNU GRACE CEREMONY",
     sanskritSloka: "सत्यव्रतं सत्यपरं त्रिसत्यं सत्यस्य योनिं निहितं च सत्ये ॥",
     subtitle: "Fulfill desires, express gratitude, and bring family togetherness with Lord Satyanarayan's 5-chapter divine narrative and fire offering",
-    heroImage: "/satyanarayan.jpg",
+    heroImage: "/img/services/satyanarayan-katha.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "5", label: "Sacred Chapters" },
@@ -481,7 +481,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "ANCESTRAL PEACE RITUAL",
     sanskritSloka: "ओम् पितृभ्यो नमः । ओम् तर्पणं समर्पयामि ॥",
     subtitle: "Appease departed ancestors, remove generation-long lineage blockages, and restore peace and prosperity",
-    heroImage: "/s5.jpeg",
+    heroImage: "/img/services/pitru-dosh-nivarana.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "3", label: "Generations Blessed" },
@@ -571,7 +571,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "BLESSING FOR PROGENY",
     sanskritSloka: "देवकीसुत गोविन्द वासुदेव जगत्पते । देहि मे तनयं कृष्ण त्वामहं शरणं गतः ॥",
     subtitle: "Invoke Lord Santan Gopal & Bal Krishna to bestow healthy progeny, overcome conception hurdles, and protect unborn child",
-    heroImage: "/s1.jpeg",
+    heroImage: "/img/services/santan-prapti-yagna.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "100%", label: "Vedic Blessing" },
@@ -649,7 +649,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "UNIVERSAL OBSTACLE ERADICATION",
     sanskritSloka: "सर्वाबाधाप्रशमनं त्रैलोक्यस्याखिलेश्वरि । एवमेव त्वया कार्यमस्मद्वैरिविनाशनम् ॥",
     subtitle: "Dissolve complex, unknown, and multi-layered life obstacles preventing health, marriage, wealth, and legal victory",
-    heroImage: "/s44.jpeg",
+    heroImage: "/img/services/sarva-badha-nivarana.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "100%", label: "Obstacle Eradication" },
@@ -688,7 +688,7 @@ export const SERVICES_DATA: Record<string, ServiceDetail> = {
     eyebrow: "MARRIAGE HARMONY & MANGLIK SHANTI",
     sanskritSloka: "ओम् क्रां क्रीं क्रौं सः भौमाय नमः ॥",
     subtitle: "Neutralize Mars (Mangal) affliction in chart, prevent delays in marriage, and establish deep understanding between couples",
-    heroImage: "/sk.jpeg",
+    heroImage: "/img/services/gruh-shanti-manglik.jpg",
     aboutImage: "/owner11.png",
     stats: [
       { num: "100%", label: "Manglik Dosh Pacification" },
