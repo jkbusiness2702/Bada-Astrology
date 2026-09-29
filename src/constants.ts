@@ -29,6 +29,10 @@ export const NAV_LINKS: NavLink[] = [
     href: "/services",
   },
   {
+    title: "PANCHANG",
+    href: "/panchang",
+  },
+  {
     title: "OUR STORY",
     href: "/pages/about-us",
   },
@@ -42,7 +46,7 @@ export const HERO_SLIDES = [
   {
     image: "/home.mp4",
     heading: "",
-    subtext: "अहिंसा परमं सत्यं",
+    subtext: "અહિંસા પરમં સત્યં",
     cta: "BOOK APPOINTMENT",
     href: "/navchandi-yagna"
   }

@@ -16,6 +16,9 @@ const TRANSLATIONS_MAP: Record<string, string> = {
   // Navigation
   'HOME': 'હોમ',
   'SERVICES': 'સેવાઓ',
+  'PANCHANG': 'દૈનિક પંચાંગ',
+  'Daily Panchang': 'દૈનિક પંચાંગ',
+  'DAILY PANCHANG': 'દૈનિક પંચાંગ',
   'OUR STORY': 'અમારી વાર્તા',
   'CONTACT US': 'સંપર્ક કરો',
   'BOOK APPOINTMENT': 'એપોઇન્ટમેન્ટ બુક કરો',

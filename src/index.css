@@ -47,3 +47,708 @@
     padding-top: 0 !important;
   }
 }
+
+/* ==========================================================================
+   Daily Panchang Styles
+   ========================================================================== */
+
+.panchang-page {
+  background-color: #FDF8F1;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.panchang-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 1rem;
+  color: #8b2323;
+  font-family: var(--font-serif);
+}
+
+.panchang-loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid rgba(200, 152, 78, 0.2);
+  border-top-color: #8b2323;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Hero Section */
+.panchang-hero {
+  position: relative;
+  background: linear-gradient(135deg, #701a1a 0%, #8b2323 50%, #4a0d0d 100%);
+  color: #F9F3E7;
+  padding: 4rem 1.5rem 3.5rem;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 4px solid #C8984E;
+}
+
+.panchang-hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 50% 30%, rgba(200, 152, 78, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.panchang-hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panchang-hero-om {
+  font-size: 3rem;
+  color: #C8984E;
+  margin-bottom: 0.25rem;
+  line-height: 1;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.panchang-hero-title {
+  font-family: var(--font-playfair);
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+}
+
+.panchang-hero-date {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #C8984E;
+  margin-bottom: 0.25rem;
+}
+
+.panchang-hero-hindu {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin-bottom: 0.25rem;
+  font-family: var(--font-serif);
+}
+
+.panchang-hero-samvat {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+/* City Selector */
+.panchang-city-selector {
+  position: relative;
+  z-index: 20;
+}
+
+.panchang-city-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(200, 152, 78, 0.6);
+  color: #F9F3E7;
+  padding: 0.6rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(8px);
+}
+
+.panchang-city-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #C8984E;
+}
+
+.panchang-chevron {
+  transition: transform 0.2s ease;
+}
+
+.panchang-chevron.open {
+  transform: rotate(180deg);
+}
+
+.panchang-city-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  background: #FFFFFF;
+  color: #1A1A1A;
+  border: 1px solid rgba(200, 152, 78, 0.4);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  z-index: 100;
+  text-align: left;
+}
+
+.panchang-city-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E5E7EB;
+  background: #F9FAFB;
+  color: #6B7280;
+}
+
+.panchang-city-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #1F2937;
+}
+
+.panchang-detect-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.65rem;
+  background: #8b2323;
+  color: #FFFFFF;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.panchang-detect-btn:hover {
+  background: #701a1a;
+}
+
+.panchang-city-list {
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 0.25rem 0;
+}
+
+.panchang-city-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.panchang-city-option:hover {
+  background: #F3F4F6;
+}
+
+.panchang-city-option.active {
+  background: rgba(139, 35, 35, 0.08);
+  font-weight: 600;
+}
+
+.panchang-city-option .city-name {
+  font-size: 0.9rem;
+  color: #111827;
+}
+
+.panchang-city-option .city-state {
+  font-size: 0.75rem;
+  color: #6B7280;
+}
+
+.panchang-no-results {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #9CA3AF;
+}
+
+/* Container */
+.panchang-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Quick Actions */
+.panchang-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.panchang-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  color: #374151;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+.panchang-action-btn:hover {
+  background: #8b2323;
+  color: #FFFFFF;
+  border-color: #8b2323;
+}
+
+/* Section Header */
+.panchang-section {
+  margin-bottom: 2.5rem;
+}
+
+.panchang-section-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid rgba(200, 152, 78, 0.3);
+}
+
+.panchang-section-icon {
+  background: rgba(139, 35, 35, 0.1);
+  color: #8b2323;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panchang-section-title {
+  font-family: var(--font-playfair);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin: 0;
+}
+
+.panchang-section-subtitle {
+  font-size: 0.85rem;
+  color: #6B7280;
+  margin-top: 0.15rem;
+}
+
+/* Grids */
+.panchang-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.25rem;
+}
+
+.panchang-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.panchang-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .panchang-grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .panchang-grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .panchang-grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .panchang-grid-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Info Card */
+.panchang-info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  background: #FFFFFF;
+  padding: 1.1rem;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.panchang-info-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.panchang-info-card.accent {
+  border-left: 4px solid #C8984E;
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFFDF9 100%);
+}
+
+.panchang-info-icon {
+  background: #F9F3E7;
+  color: #8b2323;
+  padding: 0.6rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.panchang-info-body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panchang-info-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6B7280;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.panchang-info-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.panchang-info-sub {
+  font-size: 0.75rem;
+  color: #8b2323;
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+
+/* Time Card (Sunrise/Sunset) */
+.panchang-time-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1rem;
+  background: #FFFFFF;
+  border-radius: 14px;
+  border: 1px solid #E5E7EB;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.panchang-time-card.sun-rise { border-top: 4px solid #F59E0B; color: #D97706; }
+.panchang-time-card.sun-set { border-top: 4px solid #EF4444; color: #DC2626; }
+.panchang-time-card.moon-rise { border-top: 4px solid #6366F1; color: #4F46E5; }
+.panchang-time-card.moon-set { border-top: 4px solid #9CA3AF; color: #6B7280; }
+
+.tc-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4B5563;
+  margin-top: 0.5rem;
+}
+
+.tc-value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 0.15rem;
+}
+
+/* Auspicious & Inauspicious Timing Card */
+.panchang-timing-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.timing-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.25rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.timing-header.good {
+  background: #ECFDF5;
+  color: #065F46;
+  border-bottom: 1px solid #A7F3D0;
+}
+
+.timing-header.bad {
+  background: #FEF2F2;
+  color: #991B1B;
+  border-bottom: 1px solid #FECACA;
+}
+
+.timing-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid #F3F4F6;
+  font-size: 0.9rem;
+}
+
+.timing-row:last-child {
+  border-bottom: none;
+}
+
+.timing-label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.timing-value {
+  color: #6B7280;
+  font-family: monospace;
+  font-size: 0.88rem;
+}
+
+/* Festival Section */
+.panchang-festival-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.panchang-festival-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #8b2323 0%, #a12c2c 100%);
+  color: #FFFFFF;
+  padding: 0.5rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(139, 35, 35, 0.25);
+}
+
+.festival-dot {
+  width: 8px;
+  height: 8px;
+  background: #C8984E;
+  border-radius: 50%;
+}
+
+/* Astrology Summary Card */
+.panchang-summary-card {
+  background: #FFFFFF;
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.panchang-lucky-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  background: #F9F3E7;
+  padding: 1.25rem;
+  border-radius: 10px;
+  border: 1px solid rgba(200, 152, 78, 0.3);
+}
+
+.lucky-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #8b2323;
+}
+
+.lucky-label {
+  font-size: 0.75rem;
+  color: #6B7280;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}
+
+.lucky-value {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 0.1rem;
+}
+
+.panchang-rec-card {
+  padding: 1.1rem;
+  border-radius: 10px;
+}
+
+.panchang-rec-card.good {
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+}
+
+.panchang-rec-card.bad {
+  background: #FFF1F2;
+  border: 1px solid #FECDD3;
+}
+
+.rec-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.panchang-rec-card.good .rec-header { color: #166534; }
+.panchang-rec-card.bad .rec-header { color: #9F1239; }
+
+.panchang-rec-card ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+  font-size: 0.88rem;
+  color: #374151;
+}
+
+.panchang-rec-card li {
+  margin-bottom: 0.35rem;
+}
+
+/* Footer / Disclaimer */
+.panchang-disclaimer {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+  color: #92400E;
+  padding: 0.85rem 1.1rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+.panchang-disclaimer p {
+  margin: 0;
+}
+
+.panchang-updated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  color: #9CA3AF;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+/* Share Modal */
+.panchang-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.panchang-modal {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.panchang-modal h3 {
+  font-family: var(--font-playfair);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.panchang-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #F3F4F6;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #4B5563;
+}
+
+.panchang-share-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+}
+
+.share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.share-btn:hover {
+  opacity: 0.9;
+}
+
+.share-btn.whatsapp { background: #25D366; color: #FFFFFF; }
+.share-btn.facebook { background: #1877F2; color: #FFFFFF; }
+.share-btn.twitter { background: #000000; color: #FFFFFF; }
+.share-btn.copy-link { background: #8b2323; color: #FFFFFF; }

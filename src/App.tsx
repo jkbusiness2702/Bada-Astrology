@@ -7,6 +7,7 @@ import { NavchandiYagnaPage } from './pages/NavchandiYagnaPage';
 import { ServiceDetailsPage } from './pages/ServiceDetailsPage';
 import { ContactUsPage } from './pages/ContactUsPage';
 import { AboutUsPage } from './pages/AboutUsPage';
+import { DailyPanchangPage } from './pages/DailyPanchangPage';
 import { WelcomePopup } from './components/WelcomePopup';
 import { CartProvider } from './context/CartContext';
 import { LanguageProvider } from './context/LanguageContext';
@@ -32,6 +33,8 @@ function App() {
           <Route path="/services/:slug" element={<ServiceDetailsPage />} />
           <Route path="/service/:slug" element={<ServiceDetailsPage />} />
           <Route path="/navchandi-yagna" element={<NavchandiYagnaPage />} />
+          <Route path="/panchang" element={<DailyPanchangPage />} />
+          <Route path="/daily-panchang" element={<DailyPanchangPage />} />
           <Route path="/sweets/*" element={<ServiceDetailsPage />} />
           <Route path="/collections/*" element={<ServiceDetailsPage />} />
           <Route path="/products/*" element={<ServiceDetailsPage />} />

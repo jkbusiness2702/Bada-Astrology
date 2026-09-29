@@ -27,6 +27,7 @@ export const Footer = () => {
             <h2 className="font-serif italic text-2xl mb-8 border-b border-secondary/20 pb-2">{t("Quick Links", "ઝડપી લિંક્સ")}</h2>
             <ul className="space-y-4 opacity-80 text-base">
               <li><Link to="/collections/wedding" className="hover:underline">{t("Services", "સેવાઓ")}</Link></li>
+              <li><Link to="/panchang" className="hover:underline">{t("Daily Panchang", "દૈનિક પંચાંગ")}</Link></li>
               <li><Link to="/pages/about-us" className="hover:underline">{t("About Us", "અમારા વિશે")}</Link></li>
               <li><Link to="/pages/contact-us" className="hover:underline">{t("Contact Us", "સંપર્ક કરો")}</Link></li>
               <li><Link to="/admin" className="hover:underline">{t("Admin Dashboard", "એડમિન ડેશબોર્ડ")}</Link></li>
